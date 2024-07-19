@@ -54,3 +54,34 @@
 
 // var str = 10;
 // console.log(typeof (str+""));//TODO: the way of number to string convert
+
+
+//? Truthy values 
+//* true
+//* Any non-emty string ("hello")
+//* Any non-zero number (34)
+//* Array and object, even if they'ar not empty
+
+//? false values
+//! false 
+//! 0
+//! "" any emty string
+//! null
+//! undefined
+//! NaN (not a number)
+
+//* var myName = "salman"; // true
+//* var myName = true; //true
+//* var myName = 7; //true
+//! var myName = false; //false
+//! var myName = 0; // false
+//! var myName = ""; // false
+//! var myName = null; //false
+//! var myName = undefined;//false
+//! var myName = NaN; //false
+
+if(myName){
+    console.log('this is a true');
+}else{
+    console.log('this is a false')
+}
