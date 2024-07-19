@@ -48,11 +48,11 @@
 // var age = "20";
 // console.log( typeof Number(age))//TODO:this is 2 way converd string to number
 
-var age = "20";
-console.log(parseInt(age)); //TODO:string integar number convert to number
+// var age = "20";
+// console.log(parseInt(age)); //TODO:string integar number convert to number
 
-var age = "20.7";
-console.log( parseFloat(age)); //TODO:string floting number convert to number
+// var age = "20.7";
+// console.log( parseFloat(age)); //TODO:string floting number convert to number
 
 // ? how to converd number to string
 // var str = 10;
@@ -92,3 +92,10 @@ console.log( parseFloat(age)); //TODO:string floting number convert to number
 //     console.log('this is a false')
 // }
 
+
+console.log(isNaN("8"))
+if(NaN === NaN){
+    console.log("ths is true");
+}else{
+    console.log("this is false") //false
+}
