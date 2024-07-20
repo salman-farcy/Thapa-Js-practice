@@ -93,9 +93,9 @@
 // }
 
 
-console.log(isNaN("8"))
-if(NaN === NaN){
-    console.log("ths is true");
-}else{
-    console.log("this is false") //false
-}
+// console.log(isNaN("8"))
+// if(NaN === NaN){
+//     console.log("ths is true");
+// }else{
+//     console.log("this is false") //false
+// }
