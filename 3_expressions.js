@@ -1,4 +1,4 @@
-//? Type or Oprators
+//? Type of Oprators
 //* 1. Assignment Oprators
 //* 2. Arithmetic Oprators
 //* 3. Comparison Oprators
