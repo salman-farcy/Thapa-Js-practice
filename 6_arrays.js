@@ -181,11 +181,24 @@ const biman = ['🚁', '🛩️', '✈️', '🛸', '🪂', '🚀'];
 
 //* findd Method
 // const number = [1, 2, 3, 4, 5, 6, 7, 4, 6, 8, 9];
-// const result = numbers.find()
+// const result = number.find((curElem) => {
+//     return curElem > 3;
+// })
+// console.log(result);
 
+//* findIndex
+// const number = [1, 2, 3, 4, 5, 6, 7, 4, 6, 8, 9];
+// const result = number.findIndex((curElem) => {
+//     return curElem > 3;
+// })
+// console.log(result);
 
-
-
+//* filter
+// const number = [1, 2, 3, 4, 5, 6, 7, 4, 6, 8, 9];
+// const result = number.filter((curElem) => {
+//     return curElem !== 6;
+// })
+// console.log(result);
 
 
 
