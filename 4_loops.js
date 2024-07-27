@@ -1,9 +1,11 @@
-// ? if else
-// ? switch
+//  if else
+//  switch
 
-// ? while loop
-// ? do while loop
-// ? for loop
+//  while loop
+//  do while loop
+//  for loop
+// ? for of
+// ? for in
 
 //* if else
 // var temp =   17;
