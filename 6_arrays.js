@@ -169,49 +169,6 @@ const biman = ['🚁', '🛩️', '✈️', '🛸', '🪂', '🚀'];
 // console.log(includeValus);// true
 // console.log(includeValus2);//false
 
-//* =====================
-//* Filter in an Array
-//* =====================
-//TODO: Serch + Filter
-//? find Method
-//? findIndex
-//? filter
-
-
-
-//* findd Method
-// const number = [1, 2, 3, 4, 5, 6, 7, 4, 6, 8, 9];
-// const result = number.find((curElem) => {
-//     return curElem > 3;
-// })
-// console.log(result);
-
-//* findIndex
-// const number = [1, 2, 3, 4, 5, 6, 7, 4, 6, 8, 9];
-// const result = number.findIndex((curElem) => {
-//     return curElem > 3;
-// })
-// console.log(result);
-
-//* filter
-// const number = [1, 2, 3, 4, 5, 6, 7, 4, 6, 8, 9];
-// const result = number.filter((curElem) => {
-//     return curElem !== 6;
-// })
-// console.log(result);
-
-
-
-
-
-
-
-
-
-
-
-
-
 //? 1: add Dec at the end of an array?
 //? 2: what is the return value of splice method?
 //? 3: Update march to March (Update)?
@@ -246,3 +203,43 @@ const biman = ['🚁', '🛩️', '✈️', '🛸', '🪂', '🚀'];
 // const indexNunberOfJun = months.indexOf("jun");
 // months.splice(indexNunberOfJun, 1)
 // console.log(months);//output: ['jan', 'march', 'april', 'july']
+
+//* =====================
+//* Filter in an Array
+//* =====================
+//TODO: Serch + Filter
+//? find Method
+//? findIndex
+//? filter
+
+//* findd Method
+// const number = [1, 2, 3, 4, 5, 6, 7, 4, 6, 8, 9];
+// const result = number.find((curElem) => {
+//     return curElem > 3;
+// })
+// console.log(result);
+
+//* findIndex
+// const number = [1, 2, 3, 4, 5, 6, 7, 4, 6, 8, 9];
+// const result = number.findIndex((curElem) => {
+//     return curElem > 3;
+// })
+// console.log(result);
+
+//* filter
+// const number = [1, 2, 3, 4, 5, 6, 7, 4, 6, 8, 9];
+// const result = number.filter((curElem) => {
+//     return curElem !== 6;
+// })
+// console.log(result);
+
+
+//! task EX. le'ts say user wants to delete value 6.
+// let value = 6;
+// let value1 = 4;
+// const number = [1, 2, 4, 3, 4, 5, 6, 7, 8, 6, 9,];
+// 
+// const updateCart = number.filter(currentElement => {
+//     return currentElement !== value1 && currentElement !== value;
+// })
+// console.log(updateCart);
