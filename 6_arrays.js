@@ -274,4 +274,11 @@
 // });
 // console.log(sortNumber);
 
+const numbers = [2, 6, 9, 7, 4, 9, 8, 1, 5, 8, 4, 2, 3];
+numbers.sort((a, b) => {
+    if(a > b) return -1;
+    if(b > a) return 1;
+})
+
+console.log(numbers);
 
