@@ -274,11 +274,17 @@
 // });
 // console.log(sortNumber);
 
-const numbers = [2, 6, 9, 7, 4, 9, 8, 1, 5, 8, 4, 2, 3];
-numbers.sort((a, b) => {
-    if(a > b) return -1;
-    if(b > a) return 1;
+// const numbers = [2, 6, 9, 7, 4, 9, 8, 1, 5, 8, 4, 2, 3];
+// numbers.sort((a, b) => {
+//     if(a > b) return -1;
+//     if(b > a) return 1;
+// })
+// 
+// console.log(numbers);
+
+//? using map to square each number and create a new array
+let numbers = [1, 3, 2, 4, 5];
+let result = numbers.map(element =>{
+    return element * element
 })
-
-console.log(numbers);
-
+console.log(result);
