@@ -291,7 +291,7 @@
 
 
 //? Using the map method, write a function that takes an array of strings and returns a new array where each string is capitalized.
-const words = ["apple", "banana", "cherry", "data"];
+// const words = ["apple", "banana", "cherry", "data"];
 // const result = words.map((element) => {
 //     return element.toUpperCase();
 // })
@@ -302,3 +302,23 @@ const words = ["apple", "banana", "cherry", "data"];
 //     return (element.charAt(0).toUpperCase() + element.slice(1).toLowerCase()); 
 // })
 // console.log(result); //output [ 'Apple', 'Banana', 'Cherry', 'Data' ]
+
+
+// const numbers = [1, 2, 3, 4, 5];
+// const result = numbers.map(elm => {
+//     if(elm % 2 === 0) {
+//         return elm * elm
+//     }
+// }).filter((curelem) => {
+//     return curelem !== undefined
+// })
+// 
+// console.log(result);
+
+
+//? Using the map method write a function that take an array of names and returns a new array where each name is prefixed with "Mr.".
+// const names = ["farcy"];
+// const result = names.map(nam => {
+//     return `Mr:${nam}`
+// })
+// console.log(result);
