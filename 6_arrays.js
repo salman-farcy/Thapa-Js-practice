@@ -283,8 +283,22 @@
 // console.log(numbers);
 
 //? using map to square each number and create a new array
-let numbers = [1, 3, 2, 4, 5];
-let result = numbers.map(element =>{
-    return element * element
-})
-console.log(result);
+// let numbers = [1, 3, 2, 4, 5];
+// let result = numbers.map(element =>{
+//     return element * element
+// })
+// console.log(result);
+
+
+//? Using the map method, write a function that takes an array of strings and returns a new array where each string is capitalized.
+const words = ["apple", "banana", "cherry", "data"];
+// const result = words.map((element) => {
+//     return element.toUpperCase();
+// })
+// console.log(result);//output [ 'APPLE', 'BANANA', 'CHERRY', 'DATA' ]
+
+
+// const result = words.map((element) => {
+//     return (element.charAt(0).toUpperCase() + element.slice(1).toLowerCase()); 
+// })
+// console.log(result); //output [ 'Apple', 'Banana', 'Cherry', 'Data' ]
