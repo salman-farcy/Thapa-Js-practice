@@ -105,7 +105,7 @@
 // }
 
 //? pop()
-const fruts = ['🍓', '🍎', '🍌', '🍇'];
+// const fruts = ['🍓', '🍎', '🍌', '🍇'];
 // console.log(fruts.push('🍉'));
 // console.log(fruts); //output [ '🍓', '🍎', '🍌', '🍇', '🍉' ]
 // 
@@ -141,7 +141,7 @@ const fruts = ['🍓', '🍎', '🍌', '🍇'];
 // console.log(spliceValue);
 // console.log(biman);
 
-const biman = ['🚁', '🛩️', '✈️', '🛸', '🪂', '🚀'];
+// const biman = ['🚁', '🛩️', '✈️', '🛸', '🪂', '🚀'];
 // add 
 // const spliceValue = biman.splice(-1, 0, '🚌');
 // const spliceValue = biman.splice(biman.length, 0, '🚌');
@@ -243,3 +243,35 @@ const biman = ['🚁', '🛩️', '✈️', '🛸', '🪂', '🚀'];
 //     return currentElement !== value1 && currentElement !== value;
 // })
 // console.log(updateCart);
+
+// const products = [
+//     {name: "Laptop", price: 1200},
+//     {name: "phone", price: 800},
+//     {name: "tablet", price: 300},
+//     {name: "smartwatch", price: 150},
+// ];
+// const filterProducts = products.filter((currentElement) => {
+//    return currentElement.price <= 500;
+// });
+// console.log(filterProducts.name);
+
+//!filter unique values
+// const numbers = ["🍎","🍓","🌶️", "🍌", "🍉", "🍓", "🥝", "🍇", "🍐", "🥝", "🍑", "🍍"];
+// let uniqueValues = numbers.filter((curElem, index, arr) => {
+//     // console.log(index);
+//     return (arr.indexOf(curElem) === index);
+// });
+// console.log(uniqueValues);
+
+// console.log([...new Set(numbers)]);
+
+// const names = ["salman", "rohim", "korim", "joshim", "alli", "fatama"];
+// const frutes = ["🍎","🍓","🌶️", "🍌", "🍉", "🍓", "🥝", "🍇", "🍐", "🥝", "🍑", "🍍"];
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 3, 9, 2];
+// 
+// const sortNumber =  numbers.sort((a, b) => {
+//     return b - a 
+// });
+// console.log(sortNumber);
+
+
