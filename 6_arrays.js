@@ -326,9 +326,12 @@
 
 //? Reduce method
 //! Write a JavaScript function that calculates the total price of items in a shopping cart. The function should take an array of item prices as imput and return total price.
-const numbers = [30.4];
-numbers.push(20.6, 30.8)
-const totalPrice = numbers.reduce((accum, curElem) => {
-    return accum + curElem
-}, 0);
-console.log(totalPrice);
+// const numbers = [30.4, 57, 58, 48,];
+// numbers.push(20.6, 30.8)
+// const totalPrice = numbers.reduce((accum, curElem) => {
+//     return accum + curElem
+// }, 0);
+// console.log(totalPrice);
+
+
+ 
