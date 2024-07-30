@@ -8,5 +8,8 @@
 // console.log(str.length);
 
 
-//* Escape character
-   
+//? indexOf
+
+// let text = "salman farcy";
+// console.log(text.indexOf("Farcy"))
+// console.log(text.indexOf("farcy"))
