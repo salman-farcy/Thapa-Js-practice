@@ -6,8 +6,19 @@
 //? length: property that returns the length of the string (number of charcters).
 // const str = "Hello, World!";
 // console.log(str.length);
+//TODO: search method 
+//? indexOf()
+//? indexOf()
+//? Array.from()
+//? lastIndexOf()
+//? search()
+//? match()
+//? matchAll()
+//? includes()
+//? startsWith()
+//? endsWith()
 
-//* indexOf
+//* indexOf()
 // let text = "salman farcy";
 // console.log(text.indexOf("Farcy"))
 // console.log(text.indexOf("farcy"))
