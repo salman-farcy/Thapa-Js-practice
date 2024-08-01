@@ -91,3 +91,11 @@
 // let result = text.substring(-6)
 // console.log(result);
 
+//* replace()
+let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
+// let result = text.replace("H", "c")
+// let result = text.replace("JavaScript", '')
+let result = text.replaceAll("JavaScript", "java")
+
+// let result = text.substring(1)
+console.log(result);
