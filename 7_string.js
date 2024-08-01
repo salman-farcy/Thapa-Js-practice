@@ -47,3 +47,20 @@
 // for(let index of result){
 //    console.log(index.index);
 // }
+
+//* includes();
+// TODO:includes must not be a regular 
+// let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
+// let result = text.includes("java");
+// console.log(result);
+
+//* startsWith();
+// let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
+// let result = text.startsWith('Hello')
+// console.log(result);
+
+
+//* endsWith()
+// let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
+// let result = text.endsWith("Cours");
+// console.log(result);
