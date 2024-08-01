@@ -75,3 +75,19 @@
 // let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
 // let result = text.endsWith("Cours");
 // console.log(result);
+
+
+//* slice()
+// let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
+// let result = text.slice(6, 15);
+// console.log(result);
+
+// let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
+// let result = text.slice(-7)
+// console.log(result);
+
+//* substring()
+// let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
+// let result = text.substring(-6)
+// console.log(result);
+
