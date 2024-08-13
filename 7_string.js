@@ -92,10 +92,43 @@
 // console.log(result);
 
 //* replace()
-let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
+// let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
 // let result = text.replace("H", "c")
 // let result = text.replace("JavaScript", '')
-let result = text.replaceAll("JavaScript", "java")
-
+// let result = text.replaceAll("JavaScript", "java")
 // let result = text.substring(1)
-console.log(result);
+// console.log(result);
+
+//* ==============================
+//* Extracting String Characters
+//* ==============================
+
+//* charAt
+// let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
+// let result = text.charAt(6);
+// console.log(result);
+
+
+//* charCodeAt()
+// let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
+// let result = text.charCodeAt(6);
+// console.log(result);
+
+
+// let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
+// let result = text.at(-5);
+// console.log(result);
+
+
+//*trim
+// const str = "    hello, world!   ";
+// const trimStr = str.trim();
+// console.log(trimStr);
+
+
+//* split()
+const str = "apple,orange,komola";
+const splitStr = str.split(",").reverse().join();
+console.log(splitStr);
+
+
