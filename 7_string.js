@@ -6,7 +6,7 @@
 //? length: property that returns the length of the string (number of charcters).
 // const str = "Hello, World!";
 // console.log(str.length);
-//TODO: search method 
+//TODO: search method
 //? indexOf()
 //? indexOf()
 //? Array.from()
@@ -50,7 +50,7 @@
 // let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
 // let result = text.matchAll("JavaScript");
 //   console.log(...result);
-// 
+//
 // for (let item of result){
 //    console.log(item[0]);
 // }
@@ -60,7 +60,7 @@
 // }
 
 //* includes();
-// TODO:includes must not be a regular 
+// TODO:includes must not be a regular
 // let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
 // let result = text.includes("java");
 // console.log(result);
@@ -70,12 +70,10 @@
 // let result = text.startsWith('Hello')
 // console.log(result);
 
-
 //* endsWith()
 // let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
 // let result = text.endsWith("Cours");
 // console.log(result);
-
 
 //* slice()
 // let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
@@ -108,38 +106,46 @@
 // let result = text.charAt(6);
 // console.log(result);
 
-
 //* charCodeAt()
 // let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
 // let result = text.charCodeAt(6);
 // console.log(result);
 
-
 // let text = "Hello JavaScript , welcome to our world best JavaScript Cours";
 // let result = text.at(-5);
 // console.log(result);
-
 
 //*trim
 // const str = "    hello, world!   ";
 // const trimStr = str.trim();
 // console.log(trimStr);
 
-
 //* split()
 // const str = "apple,orange,komola";
 // const splitStr = str.split(",").reverse().join();
 // console.log(splitStr);
 
-
 // console.log("a".charCodeAt(0));
 // console.log("z".charCodeAt(0));
 // console.log(String.fromCharCode(122));
 
+// for(let char = 97; char <= 122; char++){
+//     console.log(String.fromCharCode(char));
+// }
+//
+// console.log("salman faccy");
 
-
-for(let char = 97; char <= 122; char++){
-    console.log(String.fromCharCode(char));
-}
-
-console.log("salman faccy");
+const checkAllVowelPersentOrNot = (str) => {
+  const vowels = "aeiou";
+  for (let char of vowels) {
+    console.log(char);
+    // console.log(str.includes(char));
+    if (!str.includes(char)) {
+      return false;
+    }
+  }
+  return true;
+};
+console.log(
+  checkAllVowelPersentOrNot("my name is a salman farcy whats your name in thne")
+);
