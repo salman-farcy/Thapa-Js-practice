@@ -127,8 +127,19 @@
 
 
 //* split()
-const str = "apple,orange,komola";
-const splitStr = str.split(",").reverse().join();
-console.log(splitStr);
+// const str = "apple,orange,komola";
+// const splitStr = str.split(",").reverse().join();
+// console.log(splitStr);
 
 
+// console.log("a".charCodeAt(0));
+// console.log("z".charCodeAt(0));
+// console.log(String.fromCharCode(122));
+
+
+
+for(let char = 97; char <= 122; char++){
+    console.log(String.fromCharCode(char));
+}
+
+console.log("salman faccy");
