@@ -135,17 +135,38 @@
 //
 // console.log("salman faccy");
 
+// const checkAllVowelPersentOrNot = (str) => {
+//   const vowels = "aeiou";
+//   for (let char of vowels) {
+//     console.log(char);
+//     console.log(str.includes(char));
+//     if (!str.includes(char)) {
+//       return false;
+//     }
+//   }
+//   return true;
+// };
+// console.log(
+//   checkAllVowelPersentOrNot("my name is a salman farcy whats your name in thne")
+// );
+
+
+
 const checkAllVowelPersentOrNot = (str) => {
   const vowels = "aeiou";
-  for (let char of vowels) {
-    console.log(char);
+  let vowelsCount = 0;
+  let nonVowelsCount = 0;
+  for (let char of str) {
     // console.log(str.includes(char));
-    if (!str.includes(char)) {
-      return false;
+    if (vowels.includes(char)) {
+      console.log("yes");
+      
+      vowelsCount++;
+    }else{
+      console.log("no");
+      nonVowelsCount++
     }
   }
-  return true;
+  return {vowelsCount, nonVowelsCount};
 };
-console.log(
-  checkAllVowelPersentOrNot("my name is a salman farcy whats your name in thne")
-);
+console.log(checkAllVowelPersentOrNot("my name is a salman farcy whats your name in thne"));
