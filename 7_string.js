@@ -172,13 +172,13 @@
 // console.log(checkAllVowelPersentOrNot("my name is a salman farcy whats your name in thne"));
 
 
-//! Write a javaScript function to check if the given sting is Pangram or not? 
-
-const pangramChecker = (str) => {
-    let inputArr = str.toLowerCase().split('');
-    const values = inputArr.filter((curElem) => curElem.charCodeAt() >= "a".charCodeAt() &&  curElem.charCodeAt() <= "z".charCodeAt()
-   )
-  //  console.log(values);
-  return ([...new Set(values)].length === 26);
-}
-console.log(pangramChecker("The quick brown fox jumps over the lazy dog"))
+// //! Write a javaScript function to check if the given sting is Pangram or not? 
+// 
+// const pangramChecker = (str) => {
+//     let inputArr = str.toLowerCase().split('');
+//     const values = inputArr.filter((curElem) => curElem.charCodeAt() >= "a".charCodeAt() &&  curElem.charCodeAt() <= "z".charCodeAt()
+//    )
+//   //  console.log(values);
+//   return ([...new Set(values)].length === 26);
+// }
+// console.log(pangramChecker("The quick brown fox jumps over the lazy dog"))
